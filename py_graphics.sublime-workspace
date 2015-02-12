@@ -1,0 +1,571 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"objs",
+				"objs"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"B",
+				"B"
+			],
+			[
+				"vec",
+				"vec"
+			],
+			[
+				"Transforms",
+				"Transforms"
+			],
+			[
+				"transforms",
+				"Transforms"
+			],
+			[
+				"verti",
+				"vertices"
+			],
+			[
+				"calc_dx_from_",
+				"calc_dx_from_line_width"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"edge_",
+				"edge_center_of_masses"
+			],
+			[
+				"edge",
+				"gen_edge_center_of_masses"
+			],
+			[
+				"tra",
+				"trans_mat"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"Rotate",
+				"Rotate"
+			],
+			[
+				"o",
+				"obj"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"u",
+				"u"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"p",
+				"printf	printf …"
+			],
+			[
+				"nb",
+				"nb"
+			],
+			[
+				"cyl_ll",
+				"cyl_ll"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"l",
+				"l"
+			],
+			[
+				"y",
+				"rat_yz"
+			],
+			[
+				"w",
+				"w"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"vm",
+				"vm"
+			],
+			[
+				"vec3",
+				"vec3"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vector.py",
+			"settings":
+			{
+				"buffer_size": 6594,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syto",
+				"Set Syntax: TOML"
+			],
+			[
+				"pacins",
+				"Package Control: Install Package"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"sync",
+				"Set Syntax: C"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wagnerj/builds/py_graphics"
+	],
+	"file_history":
+	[
+		"/Users/wagnerj/builds/py_graphics/graphics.py",
+		"/Users/wagnerj/builds/py_graphics/box.py",
+		"/Users/wagnerj/builds/py_graphics/renderable.py",
+		"/Users/wagnerj/builds/py_graphics/gr_obj1.py",
+		"/Users/wagnerj/AdvMech/vec.py",
+		"/Users/wagnerj/AdvMech/mat.py",
+		"/Users/wagnerj/AdvMech/trans.py",
+		"/Users/wagnerj/AdvMech/gr_obj1.py",
+		"/Users/wagnerj/AdvMech/gr_obj.py",
+		"/Users/wagnerj/AdvMech/hw06.tex",
+		"/Users/wagnerj/AdvMech/Vec3.py",
+		"/Users/wagnerj/AdvMech/rossler.py",
+		"/Users/wagnerj/AdvMech/exam01d.tex",
+		"/Users/wagnerj/AdvMech/exam01a.tex",
+		"/Users/wagnerj/AdvMech/cw05.tex",
+		"/Users/wagnerj/AdvMech/doublependulum.dat",
+		"/Users/wagnerj/AdvMech/doublependulum.py",
+		"/Users/wagnerj/AdvMech/rocket.py",
+		"/Users/wagnerj/AdvMech/cw04.tex",
+		"/Users/wagnerj/AdvMech/comments.tex",
+		"/Users/wagnerj/RecLetters/alex_letter.tex",
+		"/Users/wagnerj/AdvMech/hw05.tex",
+		"/Users/wagnerj/AdvMech/hw02.tex",
+		"/Users/wagnerj/Research/bazaar.tex",
+		"/Users/wagnerj/Research/bazaar",
+		"/Users/wagnerj/AdvMech/example04.py",
+		"/Users/wagnerj/AdvMech/jef_assignment_output.dat",
+		"/Users/wagnerj/AdvMech/jef_assignment.py",
+		"/Users/wagnerj/AdvMech/drum_head.dat",
+		"/Users/wagnerj/AdvMech/drum_head.py",
+		"/Users/wagnerj/AdvMech/compproj01.tex",
+		"/Users/wagnerj/AdvMech/cw03.tex",
+		"/Users/wagnerj/AdvMech/func.dat",
+		"/Users/wagnerj/Job_Stuff/General/Publication_List/Publication_List.tex",
+		"/Users/wagnerj/AdvMech/rocket.dat",
+		"/Users/wagnerj/Polymer/version13/polymer16-JW.tex",
+		"/Users/wagnerj/Polymer/version13/polymer12.tex",
+		"/Users/wagnerj/Polymer/version21/wcc",
+		"/Users/wagnerj/Polymer/version21/branched.bib",
+		"/Users/wagnerj/Polymer/version21/polymer-submission.tex",
+		"/Users/wagnerj/Polymer/version21/polymer22-JW.tex",
+		"/Users/wagnerj/AdvMech/temp.py",
+		"/Users/wagnerj/AdvMech/cw02.tex",
+		"/Users/wagnerj/Polymer/version13/achemso-demo.tex",
+		"/Users/wagnerj/Polymer/version13/polymer15-JW.tex",
+		"/Users/wagnerj/Polymer/version13/branched.bib",
+		"/Users/wagnerj/AdvMech/example01.py",
+		"/Users/wagnerj/AdvMech/example02.py",
+		"/Users/wagnerj/Polymer/version13/polymer15-RZ.tex",
+		"/Users/wagnerj/Polymer/version13/polymer13.tex",
+		"/Users/wagnerj/AdvMech/cw01.tex",
+		"/Users/wagnerj/Polymer/version13/polymer13.bbl",
+		"/Users/wagnerj/Polymer/version13/achemso.cls",
+		"/Users/wagnerj/Polymer/version8/acs-polymer.bib",
+		"/Users/wagnerj/AdvMech/cw01.pdf",
+		"/Users/wagnerj/builds/triangle_shell/src/main.c",
+		"/Users/wagnerj/builds/triangle_shell/src/mesh.c",
+		"/Users/wagnerj/builds/triangle_shell/src/shell.c",
+		"/Users/wagnerj/AdvMech/hw01.tex",
+		"/Users/wagnerj/AdvMech/syllabus.tex",
+		"/Users/wagnerj/Polymer/version8/polymer10JW.tex",
+		"/Users/wagnerj/Phys151/lab_sec.tex",
+		"/Users/wagnerj/hiv_membrane/hiv_membrane.tex",
+		"/Users/wagnerj/Polymer/version5/polymer5.tex",
+		"/Users/wagnerj/Polymer/version8/polymer8JW.tex",
+		"/Users/wagnerj/Job_Stuff/SanDiego1/letter.tex",
+		"/Users/wagnerj/Job_Stuff/SanDiego1/CV3.tex",
+		"/Users/wagnerj/Job_Stuff/General/Diversity_Statement/Contributions_to_Diversity.tex",
+		"/Users/wagnerj/Downloads/Paper_Grading_Criteria.tex",
+		"/Users/wagnerj/builds/cylinders/CarEfficiency1.tex",
+		"/Users/wagnerj/Polymer/version3/polymer3.tex",
+		"/Users/wagnerj/out1.txt",
+		"/Users/wagnerj/builds/cylinders/PaperRubric.tex",
+		"/Users/wagnerj/Coaster/coaster.tex",
+		"/Users/wagnerj/builds/cylinders/cylinders.h",
+		"/Users/wagnerj/Downloads/output.txt",
+		"/Users/wagnerj/builds/cylinders/lennardjones.h",
+		"/Users/wagnerj/builds/cylinders/montecarlo.c",
+		"/Users/wagnerj/builds/cylinders/manybody.h",
+		"/Users/wagnerj/builds/cylinders/cylinders.c",
+		"/Users/wagnerj/builds/cylinders/math_const.h",
+		"/Users/wagnerj/builds/cylinders/distributions.c",
+		"/Users/wagnerj/builds/cylinders/cyl_test.c",
+		"/Users/wagnerj/builds/cylinders/manybody_test.c",
+		"/Users/wagnerj/builds/cylinders/vecs.h",
+		"/Users/wagnerj/builds/cylinders/manybody.c",
+		"/Users/wagnerj/builds/cylinders/lennardjones.c",
+		"/Users/wagnerj/builds/cylinders/mc_test.c",
+		"/Users/wagnerj/builds/cylinders/EnergyStorage.tex",
+		"/Users/wagnerj/builds/cylinders/Hydro.tex",
+		"/Users/wagnerj/builds/cylinders/test_uniform.dat",
+		"/Users/wagnerj/Downloads/out1(1).txt",
+		"/Users/wagnerj/Downloads/out.txt",
+		"/Users/wagnerj/Downloads/out1.txt",
+		"/Users/wagnerj/builds/cylinders/Fussion.tex",
+		"/Users/wagnerj/builds/cylinders/lj_test.c",
+		"/Users/wagnerj/builds/cylinders/vecs_test.c",
+		"/Users/wagnerj/Job_Stuff/MichState/letter.tex",
+		"/Users/wagnerj/builds/cylinders/manybody_mc.c",
+		"/System/Library/LaunchDaemons/com.apple.taskgated.plist",
+		"/Users/wagnerj/builds/cylinders/vec3_test.c",
+		"/Users/wagnerj/builds/cylinders/Climate1.tex",
+		"/Users/wagnerj/builds/cylinders/gradingsheet.tex",
+		"/Users/wagnerj/builds/cylinders/FissionvsFossil.tex",
+		"/Users/wagnerj/Job_Stuff/General/CV/CV3.tex",
+		"/Users/wagnerj/builds/cylinders/CvsC8.tex",
+		"/Users/wagnerj/builds/cylinders/lennardjones.",
+		"/Users/wagnerj/builds/vec3/src/main.rs",
+		"/Users/wagnerj/builds/vec3/src/vec3.rs",
+		"/Users/wagnerj/builds/hello_world/Cargo.toml",
+		"/Users/wagnerj/builds/hello_world/src/main.rs",
+		"/Users/wagnerj/builds/hello_world/main.rs",
+		"/Users/wagnerj/builds/hello_world/rustup.sh",
+		"/Users/wagnerj/SymmetricShells/shell.tex",
+		"/Users/wagnerj/builds/cylinders/PresNotes.tex",
+		"/Users/wagnerj/SymmetricShells/Makefile",
+		"/Users/wagnerj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/wagnerj/builds/cylinders/makeplot.py",
+		"/Users/wagnerj/mydata.txt",
+		"/Users/wagnerj/quicktest.c",
+		"/Users/wagnerj/Population_Growth_and_Energy_Usage.mkd",
+		"/Users/wagnerj/Energy_Power_Efficiency.mkd"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Transform",
+			"pts",
+			"side",
+			"obj.center",
+			"apply",
+			"c",
+			"transform",
+			"Transform",
+			"transform",
+			"Transform",
+			"\\vspace{1.6in}\n",
+			"\\vspace{1in}\n",
+			"}, {",
+			"}{",
+			"branching density",
+			"branch density",
+			"branching density",
+			"branching",
+			"branch ",
+			"far",
+			"far from",
+			"For simpl",
+			"zil",
+			"zilman",
+			"incl",
+			"include",
+			"journal",
+			"include",
+			"aff",
+			"journal",
+			"lattice",
+			"j",
+			"i",
+			"c.",
+			"3u",
+			".p",
+			"p",
+			"w_dif",
+			"w",
+			"h",
+			"offset",
+			"rat_xy",
+			"at_xy",
+			"rem_",
+			"cyl_box.z",
+			"c0.",
+			"lj_simple",
+			"simple",
+			"c2_",
+			"_su",
+			"_ad",
+			"vec3_add",
+			"th",
+			"_norm",
+			"ion{",
+			"min",
+			"c3",
+			"x",
+			"v.",
+			"vtemp",
+			"vout",
+			"c2",
+			"2",
+			"vec2_mag",
+			"2",
+			"c2",
+			"vec2",
+			"v2_",
+			"v2",
+			"v2_add"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"branch-point density"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vector.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "py_graphics.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
