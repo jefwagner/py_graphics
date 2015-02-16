@@ -7,7 +7,7 @@ class Box(PrimativeGrpahicsObj):
 	graphics_options = ['color', # Diffusive surface color
 						'ambient_color', # Ambient surface color
 						'specular_color', # Specular surface color
-						'shinyness', # Shinyness for surface in Phong Model
+						'specularity', # Shinyness for surface in Phong Model
 						'face_colors', # Each face a different color
 						'line_color', # Line color
 						'line_width', # Line width
