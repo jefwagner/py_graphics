@@ -1,40 +1,71 @@
 PyGraphics: Another Python based graphics system
 ================================================
 
-I want to create a graphics system similar to Mathematica's. 
-+ I would like to have a set of graphics primitives.
-    - Points
-    - Text
-    - Lines
-    - Polygon
-    - Circle
-    - Box
-    - Sphere
+I want to create a graphics system similar to Mathematica's.
+
++ There are three basic types of basic renderable objects
+    - Surface
+    - LineSet
+    - Billboards
+
++ We can combine these items into combined renderable object
+    - RenderableGraphicsObj
+
++ There are basic geometric objects that can be constructed from 
+  these
+    - Spheres
     - Cylinder
     - Cone
-+ The primitives can combined together into more complicated graphics objects. 
-+ I would like properties such as color, opacity, specularity, etcetera to be named parameters of each graphics object. 
-+ I would like all graphics objects to have several methods associated with them
-    - Center of mass
-    - Bounding box
-    - Bounding sphere
-+ I would like to have several transformation's
+    - Box
+    - Pyramid
+    - Tetrahedron
+    - Disk
+    - Polygon
+    - Line
+    - Spline
+    - Point
+
++ There are complicated constructed geometric shapes
+    - Extrusion
+
++ We can combine these to a combined graphics object
+    - GraphicsObj
+
++ We can specify style properties with keyword objects
+    - color
+    - ambient_color
+    - specular_color
+    - specularity
+    - line_color
+    - line_width
+    - line_style
+    - point_color
+    - point_size
+    - point_style
+    - face_colors
+    - edge_colors
+    - vertex_colors
+
++ There are basic transformation that can be specified for each
+  graphics object
+    - Translate
     - Scale
     - Shear
     - Rotate
-    - Translate
-+ I would like to have a lighting objects
-    - Directional lights
-    - Point lights
-    - Spot lights
-    - Combined lighting 
-    - Several default lighting signatures
-        * Tri-color
-        * Neutral
-+ I would like to have camera objects
-    - Perspective camera
-    - Orthographic camera
-+ I would like to have a render call that takes a graphics object, a lighting object, and a camera object to render a scene.
-    - Default to creating a WebGL scene using three.js buffer geometry
-    - Render directly to picture
-+ In addition I would like to create 2-D scenes using an orthographic camera
+
++ There should be basic light objects
+    - Ambient light
+    - Directional light
+    - Point light
+    - Spot light
+
++ We can combine these to a combined light object
+    - LightObj
+
++ There should be a camera object
+    - Camera
+
++ I would like to have a render call that takes a graphics object, a 
+  lighting object, and a camera object to render a scene.
+    - Default to creating a WebGL scene
+    - Render directly to picture (png, jpg, svg)
