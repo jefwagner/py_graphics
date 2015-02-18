@@ -82,15 +82,14 @@ class BaseGraphicsObj:
 class GraphicsObj(BaseGraphicsObj):
 
 	graphics_options = ['color',
-											'ambient_color',
-											'specular_color',
-											'specularity',
-											'line_color',
-											'line_width',
-											'line_style',
-											'point_color',
-											'point_size',
-											'point_style']
+						'specular_color',
+						'specularity',
+						'line_color',
+						'line_width',
+						'line_style',
+						'point_color',
+						'point_size',
+						'point_style']
 
 	def __init__( self, *args, transforms=[], **kwargs):
 		for obj in args:
@@ -105,18 +104,3 @@ class GraphicsObj(BaseGraphicsObj):
 		rend_obj_list = [obj.to_renderable() for obj in self.obj_list]
 		style_options = self.get_style_options()
 		return( RenderableGraphicsObj(rend_obj_list, trans=self.transforms, **style_options))
-
-
-class RenderableGraphicsObj(BaseGraphicsObj):
-
-	def __init__( self, *args, transforms=[], **kwargs):
-		for obj in args:
-			if isinstance(RenderableGraphicsObj, obj):
-				self.obj_list.append(obj)
-			else:
-				name = self.__class__.__name__
-				raise AttributeError("{}.__init__ takes and array of RenderableGraphicsObjs")
-		super(RenderableGraphicsObjs, self).__init__(transforms, **kwargs)
-
-	def to_renderable(self, display_radius=None):
-		return( self)

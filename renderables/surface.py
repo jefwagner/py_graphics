@@ -4,6 +4,7 @@
 import numpy as np
 
 from py_graphics.utils.vector import IVec2, IVec3
+from py_graphics.renderables.renderable import RenderableGraphicsObj
 
 __all__ = ['Face','Surface']
 
@@ -81,12 +82,10 @@ class Surface(RenderableGraphicsObj):
 
   # Accepts the following style options:
   # - color: The diffusive color of the object
-  # - ambient color: The ambient color of the object
   # - specular color: The specular color of the object
   # - specularity: The sharpness of the specular highlights
   # - vertex_colors: Also possible to specify a per-vertex color
   graphics_options = ['color',
-                      'ambient_color',
                       'specular_color',
                       'specularity',
                       'vertex_colors']
@@ -214,8 +213,24 @@ class Surface(RenderableGraphicsObj):
     areas = self.calc_face_areas()
     return( sum(areas))
 
-  # calc_vertex_attribute_array
-  # ---------------------------
-  def calc_vertices
+  # calc_vertices
+  # -------------
+  # This method returns all the vertices in the surface.
+  def calc_vertices(self):
     """Returns a list of vertices"""
     return( self.vertices)
+
+  # cald_vertex_attr
+  # ----------------
+  # This method returns a list of attributes for each vertex.
+  def calc_vertex_attr(self, attr, default):
+    """Returns a list of attribute values for each vertex"""
+      if attr == 'color' and hasattr(self, 'vertex_colors'):
+        return( self.vertex_colors)
+      else:
+        size = len(self.vertices)
+        if hasattr( self, attr):
+          val = getattr(self, attr)
+          return( [val]*size)
+        else:
+          return( [default]*size)

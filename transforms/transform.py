@@ -2,8 +2,8 @@
 # Date: 10-02-2015
 
 import numpy as np
-from vec import *
-from mat import *
+from py_graphics.utils.vector import Vec3
+from py_graphics.utils.matrix import Mat3x4
 
 class BaseTransform:
 	pass
@@ -19,7 +19,7 @@ class Transform(BaseTransform):
 				raise AttributeError("Transform.__init__ takes an array of BaseTransforms")
 
 	def get_mat(self, obj):
-		m = Mat34(np.eye(3))
+		m = Mat3x4(1,0,0,0,0,1,0,0,0,0,1,0)
 		for trans in self.trans_list:
 			m = trans.get_mat(obj)*m
 		return( m)
@@ -30,9 +30,10 @@ class Translate(BaseTransform):
 		self.vec = Vec3(vec)
 
 	def mat(self, obj=None):
-		A = np.eye(3, dtype=np.float32)
-		m = np.append( A, self.vec, axis=1)
-		return( Mat3x4(m))
+		T = Mat3x4(1,0,0,self.vec[0],
+			       0,1,0,self.vec[1],
+			       0,0,1,self.vec[2])
+		return( T)
 
 class ScaleXYZ(BaseTransform):
 
