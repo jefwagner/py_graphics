@@ -1,6 +1,10 @@
 # Author: Jef Wagner
 # Date: 13-02-2015
 
+from utils.matrix import Mat3x4
+from transforms.transform import *
+from renderables.renderable import RenderableGraphicsObj
+
 class BaseGraphicsObj:
 
 	def __init__(self, trans=[], **kwargs):
@@ -11,7 +15,7 @@ class BaseGraphicsObj:
 			else:
 				name = self.__class__.__name__
 				raise AttributeError("{}.__init__ transform options must be an sequence of Transforms".format(name))
-		self.trans_mat = Mat34(1,0,0,0,0,1,0,0,0,0,1,0)
+		self.trans_mat = Mat3x4(1,0,0,0,0,1,0,0,0,0,1,0)
 		for t in self.transforms:
 			self.trans_mat = t.get_mat(self)*self.trans_mat
 		for key in kwargs.keys():

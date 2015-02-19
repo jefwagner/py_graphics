@@ -1,7 +1,7 @@
 # Author: Jef Wagner
 # Date: 19-02-2015
 
-from py_graphics.graphics import BaseGraphicsObj
+from ..graphics import BaseGraphicsObj
 
 ##############################################################################
 # Renderable Graphic Object class

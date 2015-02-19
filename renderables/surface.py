@@ -3,8 +3,8 @@
 
 import numpy as np
 
-from py_graphics.utils.vector import IVec2, IVec3
-from py_graphics.renderables.renderable import RenderableGraphicsObj
+from ..utils.vector import IVec2, IVec3
+from renderable import RenderableGraphicsObj
 
 __all__ = ['Face','Surface']
 
@@ -26,7 +26,7 @@ class Face(IVec3):
   # Returns the positions of the corners of the triangular face. Takes 
   # additional arguments of the list of vertices and the translation 
   # matrix. Returns a tuple of Vec3s.
-  def calc_vertices(self, vertices, trans_mat)):
+  def calc_vertices(self, vertices, trans_mat):
     """Returns the corner points of the face"""
     pt0 = trans_mat*vertices[self[0]]
     pt1 = trans_mat*vertices[self[1]]
@@ -124,7 +124,7 @@ class Surface(RenderableGraphicsObj):
       self.vertices.append( Vec3(v))
     # Find max possible index, create an empty set of all indices,
     # create an empty list of faces
-    max_index = len(self.vertices)-1:
+    max_index = len(self.vertices)-1
     index_set = set()
     self.faces = []
     for f in faces:
@@ -225,12 +225,13 @@ class Surface(RenderableGraphicsObj):
   # This method returns a list of attributes for each vertex.
   def calc_vertex_attr(self, attr, default):
     """Returns a list of attribute values for each vertex"""
-      if attr == 'color' and hasattr(self, 'vertex_colors'):
-        return( self.vertex_colors)
+    if attr == 'color' and hasattr(self, 'vertex_colors'):
+      return( self.vertex_colors)
+    else:
+      size = len(self.vertices)
+      if hasattr( self, attr):
+        val = getattr(self, attr)
+        return( [val]*size)
       else:
-        size = len(self.vertices)
-        if hasattr( self, attr):
-          val = getattr(self, attr)
-          return( [val]*size)
-        else:
-          return( [default]*size)
+        return( [default]*size)
+        
